@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "CacheLockDemo.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44367",
+      "path": "../../../src/CacheLockDemo.Web/CacheLockDemo.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

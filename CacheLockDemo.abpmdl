@@ -1,0 +1,80 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "CacheLockDemo.Application": {
+      "path": "src/CacheLockDemo.Application/CacheLockDemo.Application.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.Domain.Shared": {
+      "path": "src/CacheLockDemo.Domain.Shared/CacheLockDemo.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.Application.Contracts": {
+      "path": "src/CacheLockDemo.Application.Contracts/CacheLockDemo.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.HttpApi": {
+      "path": "src/CacheLockDemo.HttpApi/CacheLockDemo.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.HttpApi.Client": {
+      "path": "src/CacheLockDemo.HttpApi.Client/CacheLockDemo.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.Web": {
+      "path": "src/CacheLockDemo.Web/CacheLockDemo.Web.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.EntityFrameworkCore": {
+      "path": "src/CacheLockDemo.EntityFrameworkCore/CacheLockDemo.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.DbMigrator": {
+      "path": "src/CacheLockDemo.DbMigrator/CacheLockDemo.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "CacheLockDemo.Domain": {
+      "path": "src/CacheLockDemo.Domain/CacheLockDemo.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

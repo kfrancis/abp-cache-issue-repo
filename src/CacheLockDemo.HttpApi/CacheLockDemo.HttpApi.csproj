@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CacheLockDemo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CacheLockDemo.Application.Contracts\CacheLockDemo.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Pro.HttpApi" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Admin.HttpApi" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.HttpApi" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Public.HttpApi" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>
